@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=stylesheet href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Matinde Alex</span><br> from Kenya</h1>
+        </div>
+    </section>
+
+    <!---------Start About Section--------->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/proffession.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="color:antiquewhite ;">I am an upcoming software developer, programmer, netpreneur and investor in the stock market.<br>
+                I am passionate about programming and technology</p>
+                <div class="tabs-col">
+                    <h1 class="tab-title">Education</h1>
+                    <div>
+                        <ul>
+                            <li><span>2022-Current</span><br>Softwae engineering at ALX</li>
+                            <li><span>2021-Current</span><br>Informatics at Moi University</li>
+                            <li><span>2020-2021</span><br>Leadership Training at Lapid Africa</li>
+                            <li><span>2016-2019</span><br>A-Level at Tara High</li>
+                        </ul>
+                    </div>
+                
+        
+                   <h1 class="tab-title">Skills</h1>
+                   <div>
+                      <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                      </ul>
+                   </div>
+                
+                    <h1 class="tab-title">Experience</h1>
+                    <div>
+                        <ul>
+                            <li><span>2022</span><br>Building Android/iOS App</li>
+                            <li><span>2021</span><br>Web App Development</li>
+                            <li><span>2020</span><br>Team Lead at Lapid Africa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------End About Section--------->
+
+<!----------Start my services section---------->
+<section class="services" id="services">
+       <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                 <p>I design eye catching business websites that ensures maximum traffic in terms of customer visits</p>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                 <p>I design eye catching business websites that ensures maximum traffic in terms of customer visits</p>
+            </div>
+            <div>
+                <h2>App Development</h2>
+                 <p>I design eye catching business websites that ensures maximum traffic in terms of customer visits</p>
+            </div>
+        </div>
+       </div>
+</section>
+ 
+ 
+    <!-- Start Contact Section-->
+ <section class="contact" id="contact">
+    <div class="container">
+       <div class="content">
+           <div class="box form wow slideInLeft">
+              <form>
+                 <input type="text" name="name" placeholder="Enter Name" required>
+                 <input type="text" name="email" placeholder="Enter Email" required>
+                 <input type="number" name="phone" placeholder="Enter Mobile" required>
+                 <textarea placeholder="Enter Message" required></textarea>
+                 <button type="submit">Send Message</button>
+              </form>
+           </div>
+           <div class="box text wow slideInRight">
+                <h2>Let us get connected:</h2>
+                 <p class="title-p">Call me or leave a message via my email and social media platforms provided below</p>
+                 <div class="info">
+                     <ul>
+                         <li><span class="fa fa-map-marker"></span>Ryfa, Talai Center, Opposite Leslos Apartments.</li>
+                         <li><span class="fa fa-phone"></span> +254 706911218</li>
+                         <li><span class="fa fa-envelope"></span> matindealexmwita@gmail.com</li>
+                     </ul>
+                 </div>
+                 <div class="social">
+                      <a href="Gurus Alex"><span class="fa fa-facebook"></span></a>
+                      <a href="gurualexis"><span class="fa fa-linkedin"></span></a>
+                      <a href="@Alexis99860477"><span class="fa fa-twitter"></span></a>
+                      <a href=""><span class="fa fa-instagram"></span></a>
+                 </div>
+
+                 <div class="copy">
+                     Copyright &copy; 2022
+                 </div>
+           </div>
+       </div>
+    </div>
+ </section>
+<!-- End Contact -->
+
+<!--Javascript for Toggle Menu-->
+<script>
+        
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-100%";
+    }
+</script>
+</body>
+</html>
