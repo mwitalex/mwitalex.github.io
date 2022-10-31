@@ -330,4 +330,7 @@ h2{
     .row{
         flex-direction: column;
     }
+    .contact{
+	flex-direction:column
+   }
 }
