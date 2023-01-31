@@ -180,7 +180,8 @@ nav ul li a:hover{
     grid-gap: 40px;
     margin-top: 50px;
 }
-
+.services div{
+    background: white;
 h2{
     color:#11325;
 }
