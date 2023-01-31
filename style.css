@@ -180,9 +180,7 @@ nav ul li a:hover{
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services div{
-    background: white;
-}
+
 h2{
     color:#11325;
 }
@@ -190,8 +188,7 @@ h2{
     background: #262626;
     padding: 40px;
     font-size: 20px;
-    font-weight: 300;
-    content-color: white;	
+    font-weight: 300;	
 }
 
 /*------Contact Section--------*/
